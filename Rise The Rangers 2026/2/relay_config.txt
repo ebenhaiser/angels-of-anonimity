@@ -1,0 +1,10 @@
+# relay_config.txt
+# INTERNAL USE - DO NOT SHARE OUTSIDE TEAM
+
+status: active
+last_sync: 2026-06-11
+
+payload:
+uggcf://jjj.vafgntenz.pbz/wraa_ljnaqreyhfg?vtfu=ZJZ0BKD2p2j3MTfjMD==
+
+# end of file

@@ -1,0 +1,114 @@
+====================================================================================================
+SISTEM INFORMASI KEIMIGRASIAN — LOG KEDATANGAN INTERNASIONAL
+Terminal: Bandara Internasional I Gusti Ngurah Rai (DPS)
+Periode Ekstraksi: 01 Juni 2026 - 02 Juni 2026 | Klasifikasi: TERBATAS - KERJASAMA INVESTIGASI
+====================================================================================================
+
+NO  NAMA LENGKAP              NO. PASPOR    KODE NEGARA     TGL MASUK     DURASI (HARI)  JENIS VISA
+----------------------------------------------------------------------------------------------------------------------------------
+1   ANTHONY RAMIREZ           F4103463      BELGIUM         01-06-2026    14             BEBAS VISA KUNJUNGAN
+2   EMMA CAMPBELL             H3273425      MALAYSIA        01-06-2026    4              VISA ON ARRIVAL (VOA)
+3   NOVA SANCHEZ              H7882018      CANADA          02-06-2026    7              B211A - KUNJUNGAN WISATA
+4   DANIEL JACKSON            H6657997      UNITED STATES   01-06-2026    8              B211A - KUNJUNGAN WISATA
+5   LILY YOUNG                C1250951      MALAYSIA        02-06-2026    14             VISA ON ARRIVAL (VOA)
+6   AURORA PHILLIPS           G8918012      SPAIN           01-06-2026    14             VISA ON ARRIVAL (VOA)
+7   CHRISTOPHER JOHNSON       C3118207      INDIA           02-06-2026    4              BEBAS VISA KUNJUNGAN
+8   LIAM LEE                  B9664411      JAPAN           02-06-2026    9              B211A - KUNJUNGAN WISATA
+9   ZOE COLLINS               F9591366      AUSTRALIA       02-06-2026    4              B211A - KUNJUNGAN WISATA
+10  HAZEL HALL                G3654240      NEW ZEALAND     02-06-2026    3              B211A - KUNJUNGAN WISATA
+11  LUKE RIVERA               G8980496      UNITED STATES   02-06-2026    12             VISA ON ARRIVAL (VOA)
+12  JOSHUA MITCHELL           A1854801      CANADA          01-06-2026    14             B211A - KUNJUNGAN WISATA
+13  KEVIN WILSON              A6206249      NETHERLANDS     01-06-2026    10             BEBAS VISA KUNJUNGAN
+14  LIAM COLLINS              H3285688      BELGIUM         02-06-2026    5              BEBAS VISA KUNJUNGAN
+15  SAVANNAH LEE              H6038929      NORWAY          02-06-2026    6              BEBAS VISA KUNJUNGAN
+16  KEVIN REYES               D5500716      AUSTRIA         01-06-2026    5              B211A - KUNJUNGAN WISATA
+17  EMILY LEWIS               G4040492      ITALY           02-06-2026    21             BEBAS VISA KUNJUNGAN
+18  NATALIE WRIGHT            A6038443      MEXICO          02-06-2026    10             B211A - KUNJUNGAN WISATA
+19  JOSEPH GOMEZ              H7584322      DENMARK         02-06-2026    14             B211A - KUNJUNGAN WISATA
+20  LEVI TURNER               C6221308      SINGAPORE       02-06-2026    7              BEBAS VISA KUNJUNGAN
+21  BRIAN GUTIERREZ           F7827911      SPAIN           02-06-2026    8              VISA ON ARRIVAL (VOA)
+22  WILLIAM MARTIN            A4110067      SOUTH KOREA     02-06-2026    12             BEBAS VISA KUNJUNGAN
+23  BRIAN ROBINSON            F8585477      NETHERLANDS     02-06-2026    3              VISA ON ARRIVAL (VOA)
+24  RYAN WHITE                E3751133      AUSTRIA         02-06-2026    3              BEBAS VISA KUNJUNGAN
+25  BROOKLYN MILLER           B6145299      GERMANY         01-06-2026    8              B211A - KUNJUNGAN WISATA
+26  ISAAC PARKER              E6058981      GREECE          01-06-2026    12             B211A - KUNJUNGAN WISATA
+27  ARIA SMITH                E9854784      MALAYSIA        01-06-2026    6              B211A - KUNJUNGAN WISATA
+28  LUCAS RODRIGUEZ           C6298337      UNITED STATES   01-06-2026    14             B211A - KUNJUNGAN WISATA
+29  ARIA STEWART              H8194246      SOUTH KOREA     01-06-2026    6              B211A - KUNJUNGAN WISATA
+30  ANNA KING                 E7351315      IRELAND         02-06-2026    9              B211A - KUNJUNGAN WISATA
+31  CHARLOTTE SANCHEZ         F9429561      BRAZIL          01-06-2026    21             B211A - KUNJUNGAN WISATA
+32  ANNA WILSON               F4615859      SPAIN           01-06-2026    12             VISA ON ARRIVAL (VOA)
+33  NATALIE KING              G2961105      MEXICO          02-06-2026    5              B211A - KUNJUNGAN WISATA
+34  JULIAN ADAMS              E9995203      UNITED KINGDOM  02-06-2026    5              BEBAS VISA KUNJUNGAN
+35  AURORA RAMIREZ            F1208475      NEW ZEALAND     02-06-2026    9              BEBAS VISA KUNJUNGAN
+36  WILLOW BAKER              E1258723      CANADA          02-06-2026    14             B211A - KUNJUNGAN WISATA
+37  JULIAN MORGAN             C4564243      UNITED KINGDOM  01-06-2026    6              B211A - KUNJUNGAN WISATA
+38  PAISLEY GARCIA            G3232705      NETHERLANDS     01-06-2026    14             B211A - KUNJUNGAN WISATA
+39  DYLAN ROBERTS             C9265307      MALAYSIA        02-06-2026    10             VISA ON ARRIVAL (VOA)
+40  AURORA ALLEN              A9249829      UNITED KINGDOM  02-06-2026    10             B211A - KUNJUNGAN WISATA
+41  SOPHIA WALKER             B3763511      CANADA          02-06-2026    21             B211A - KUNJUNGAN WISATA
+42  WILLOW GOMEZ              G2820699      SPAIN           01-06-2026    3              BEBAS VISA KUNJUNGAN
+43  NORA WHITE                D8498130      ITALY           02-06-2026    8              B211A - KUNJUNGAN WISATA
+44  MIA MOORE                 A8908175      NORWAY          02-06-2026    7              BEBAS VISA KUNJUNGAN
+45  ANTHONY WRIGHT            D2396386      UNITED KINGDOM  01-06-2026    14             BEBAS VISA KUNJUNGAN
+46  EMILY HARRIS              G7157636      AUSTRIA         02-06-2026    21             BEBAS VISA KUNJUNGAN
+47  WILLIAM WILLIAMS          D8164122      ITALY           02-06-2026    14             B211A - KUNJUNGAN WISATA
+48  NATALIE STEWART           D1113340      AUSTRALIA       02-06-2026    7              B211A - KUNJUNGAN WISATA
+49  MADISON BAKER             A9221807      DENMARK         01-06-2026    4              B211A - KUNJUNGAN WISATA
+50  DYLAN SCOTT               H6196156      UNITED STATES   02-06-2026    21             VISA ON ARRIVAL (VOA)
+51  SCARLETT WHITE            H7725469      CHINA           02-06-2026    7              BEBAS VISA KUNJUNGAN
+52  JULIA MILLER              C9702024      MALAYSIA        02-06-2026    5              B211A - KUNJUNGAN WISATA
+53  CHRISTOPHER CLARK         D5125125      POLAND          01-06-2026    9              B211A - KUNJUNGAN WISATA
+54  ANDREW BROWN              D8452284      AUSTRALIA       01-06-2026    3              BEBAS VISA KUNJUNGAN
+55  HANNAH ORTIZ              F3761568      GERMANY         01-06-2026    6              VISA ON ARRIVAL (VOA)
+56  EMMA RIVERA               F3118359      GREECE          01-06-2026    5              B211A - KUNJUNGAN WISATA
+57  MICHAEL DAVIS             G9600198      SINGAPORE       01-06-2026    12             BEBAS VISA KUNJUNGAN
+58  JULIAN SMITH              F6105451      SWEDEN          01-06-2026    14             VISA ON ARRIVAL (VOA)
+59  PAISLEY COOPER            C1145178      FINLAND         02-06-2026    4              VISA ON ARRIVAL (VOA)
+60  DANIEL KOVACS             P0193847      KRANSTADT       01-06-2026    45             B211A - KUNJUNGAN WISATA
+61  WYATT BROWN               E8639679      IRELAND         02-06-2026    6              VISA ON ARRIVAL (VOA)
+62  SKYLAR TAYLOR             B5773983      MEXICO          01-06-2026    10             BEBAS VISA KUNJUNGAN
+63  OWEN CAMPBELL             F2522206      INDIA           01-06-2026    3              B211A - KUNJUNGAN WISATA
+64  SCARLETT DIAZ             C2847028      BELGIUM         02-06-2026    14             BEBAS VISA KUNJUNGAN
+65  ARIA RODRIGUEZ            D8802334      NEW ZEALAND     02-06-2026    5              BEBAS VISA KUNJUNGAN
+66  THOMAS RODRIGUEZ          H9605560      SOUTH KOREA     02-06-2026    21             B211A - KUNJUNGAN WISATA
+67  AURORA MARTIN             A4629147      IRELAND         01-06-2026    5              BEBAS VISA KUNJUNGAN
+68  JOSEPH MOORE              C3648016      MALAYSIA        02-06-2026    8              B211A - KUNJUNGAN WISATA
+69  ANNA MORRIS               H6055464      BELGIUM         01-06-2026    14             B211A - KUNJUNGAN WISATA
+70  SCARLETT MURPHY           B5586717      NETHERLANDS     02-06-2026    21             VISA ON ARRIVAL (VOA)
+71  WILLOW RIVERA             E6733979      SWITZERLAND     02-06-2026    6              BEBAS VISA KUNJUNGAN
+72  HAZEL WILLIAMS            E4681953      GREECE          02-06-2026    14             B211A - KUNJUNGAN WISATA
+73  VICTORIA PARKER           C5744657      CHINA           02-06-2026    9              BEBAS VISA KUNJUNGAN
+74  EMMA PARKER               B2145440      SINGAPORE       02-06-2026    14             B211A - KUNJUNGAN WISATA
+75  VIOLET HALL               G8483837      INDIA           02-06-2026    14             BEBAS VISA KUNJUNGAN
+76  JACK TORRES               E2999559      GREECE          02-06-2026    21             BEBAS VISA KUNJUNGAN
+77  CHRISTOPHER WILLIAMS      G8356224      BELGIUM         02-06-2026    6              B211A - KUNJUNGAN WISATA
+78  ADAM MARTINEZ             C7030234      BELGIUM         02-06-2026    5              BEBAS VISA KUNJUNGAN
+79  LUKE ALLEN                F1818757      IRELAND         01-06-2026    10             BEBAS VISA KUNJUNGAN
+80  THOMAS SMITH              C9530650      GREECE          01-06-2026    10             B211A - KUNJUNGAN WISATA
+81  EMMA SCOTT                F4970791      NETHERLANDS     01-06-2026    8              BEBAS VISA KUNJUNGAN
+82  AVA GARCIA                C5666120      IRELAND         02-06-2026    10             BEBAS VISA KUNJUNGAN
+83  LAYLA TURNER              E3130841      DENMARK         02-06-2026    12             VISA ON ARRIVAL (VOA)
+84  SCARLETT TURNER           G3050144      GREECE          01-06-2026    4              B211A - KUNJUNGAN WISATA
+85  JACK MILLER               D2160590      AUSTRALIA       01-06-2026    3              B211A - KUNJUNGAN WISATA
+86  ARIA WHITE                E7169878      GERMANY         01-06-2026    14             VISA ON ARRIVAL (VOA)
+87  ADAM EVANS                H7713595      CHINA           02-06-2026    10             VISA ON ARRIVAL (VOA)
+88  MIA RAMIREZ               H2036181      SWITZERLAND     01-06-2026    4              BEBAS VISA KUNJUNGAN
+89  JULIAN MOORE              C2357475      MALAYSIA        02-06-2026    3              B211A - KUNJUNGAN WISATA
+90  JACK EVANS                F9755683      BELGIUM         02-06-2026    14             BEBAS VISA KUNJUNGAN
+91  GRACE DIAZ                D6740812      UNITED KINGDOM  01-06-2026    3              B211A - KUNJUNGAN WISATA
+92  SKYLAR SCOTT              F3948806      IRELAND         01-06-2026    10             B211A - KUNJUNGAN WISATA
+93  MADISON KING              C1599571      AUSTRIA         01-06-2026    5              B211A - KUNJUNGAN WISATA
+94  AURORA KING               C6166354      INDIA           02-06-2026    7              B211A - KUNJUNGAN WISATA
+95  WILLOW MARTIN             G3465320      UNITED KINGDOM  01-06-2026    12             VISA ON ARRIVAL (VOA)
+96  HENRY RODRIGUEZ           C9705043      AUSTRIA         02-06-2026    4              VISA ON ARRIVAL (VOA)
+97  SOFIA WALKER              H6035047      DENMARK         02-06-2026    12             VISA ON ARRIVAL (VOA)
+98  CHRISTOPHER MURPHY        A1697554      SINGAPORE       02-06-2026    10             B211A - KUNJUNGAN WISATA
+99  ADAM GARCIA               B5728840      JAPAN           02-06-2026    3              VISA ON ARRIVAL (VOA)
+100 OLIVER SMITH              G6851722      PORTUGAL        02-06-2026    7              BEBAS VISA KUNJUNGAN
+----------------------------------------------------------------------------------------------------------------------------------
+Total entri: 100 | Diekstrak oleh: Sistem Otomatis Ditjen Imigrasi (Akses Kerjasama Investigasi)
+
+CATATAN ANALIS:
+Sebagian besar kedatangan pada rentang tanggal ini adalah wisatawan reguler dengan durasi tinggal
+standar (3-21 hari) dari negara-negara dengan volume kunjungan tinggi ke Bali.

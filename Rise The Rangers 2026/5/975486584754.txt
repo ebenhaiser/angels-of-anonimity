@@ -1,0 +1,52 @@
+======================================================================
+[DARKFORUM LEAK] internal_ops_registry.dump
+Sumber: Kebocoran database forum darkweb 'obscura.forum'
+Diperoleh melalui kerja sama unit siber - TERBATAS
+======================================================================
+
+# format: internal_op_code => group_alias
+----------------------------------------------------------------------
+NW-7937         => SHADOW FANG
+GV-9249         => GHOST VIPER
+AF-8175         => AMBER FALCON
+NW-7793         => RED LOTUS
+SP-7918         => STORM PANTHER
+NW-9773         => SILENT RAVEN
+AP-5727         => ASH PHOENIX
+SF-9834         => SHADOW FANG
+SR-1794         => SILENT RAVEN
+MA-4912         => MIDNIGHT ADDER
+SL-6341         => SCARLET LYNX
+CS-2152         => COBALT SCORPION
+CF-7617         => COPPER FALCON
+VH-4139         => VELVET HAWK
+VS-4632         => VOID SERPENT
+NW-7739         => NIGHT WOLF
+SC-3638         => SILVER COBRA
+CE-4166         => CRIMSON EAGLE
+OM-2455         => ONYX MANTIS
+BJ-2030         => BRONZE JACKAL
+SM-8953         => STEEL MANTIS
+IJ-8653         => IRON JACKAL
+PS-8047         => PALE SERPENT
+BO-4514         => BLACK ORCHID
+AC-4412         => ASHEN CONDOR
+RL-4190         => RED LOTUS
+OW-6390         => OBSIDIAN WOLF
+NW-7379         => GHOST VIPER
+GV2-8294        => GOLDEN VIPER
+DC-4479         => DARK CURRENT
+CT-6876         => CRIMSON TIDE
+GW-8728         => GRANITE WOLF
+NW-3779         => IRON JACKAL
+FT-9803         => FROZEN TALON
+IS-7004         => IRON SPIDER
+JH-5181         => JADE HORNET
+----------------------------------------------------------------------
+
+Total entri terdaftar: 36
+
+Catatan: Data ini adalah potongan tabel referensi internal yang dipakai
+beberapa kelompok hacktivist untuk menyamarkan identitas asli mereka dalam
+komunikasi C2. Kode operasi bersifat unik per kelompok per periode aktif.
+Beberapa kelompok tercatat memiliki lebih dari satu kode pada periode berbeda.

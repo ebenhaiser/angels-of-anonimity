@@ -1,0 +1,21 @@
+CATATAN TRANSAKSI - PERANGKAT CADANGAN.
+===================================================
+Sumber: Ekstraksi cache aplikasi wallet (non-custodial), perangkat cadangan
+Status: TERKONFIRMASI - dapat diverifikasi silang via blockchain explorer publik
+
+---
+
+Riwayat aktivitas wallet berikut ditemukan tersimpan sebagai cache lokal pada
+aplikasi dompet kripto yang terpasang di perangkat cadangan tersangka. Catatan
+ini merujuk pada salah satu transaksi yang tercatat permanen di blockchain,
+digunakan sebagai bukti bahwa alamat wallet ini pernah aktif menerima dana
+dalam jumlah signifikan dari pihak lain sebelumnya.
+
+TXID (Transaction Hash):
+a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d
+
+Catatan Analis:
+"TXID di atas tercatat permanen di blockchain Bitcoin dan dapat diverifikasi"
+
+===================================================
+Dokumen hasil ekstraksi forensik - bagian dari berkas investigasi resmi.

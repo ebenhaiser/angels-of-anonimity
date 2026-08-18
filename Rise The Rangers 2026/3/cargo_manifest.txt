@@ -1,0 +1,38 @@
+================================================================================
+EXPRESS CARGO NUSANTARA - MANIFEST KARGO DIGITAL
+Terminal Penyeberangan: Pelabuhan Gilimanuk (Ketapang-Gilimanuk Crossing)
+Klasifikasi: INTERNAL USE ONLY
+================================================================================
+
+No. Manifest       : MAN-2026-0847-GLM
+Referensi Terkait   : KTL-88291X
+Tanggal Kedatangan  : 18 Juni 2026, 06:40 WITA
+Kapal Feri          : KMP Nusa Jaya III
+Nomor Kontainer     : ECN-7734-B
+
+--------------------------------------------------------------------------------
+DETAIL BARANG
+--------------------------------------------------------------------------------
+Deskripsi (Manifest Resmi)  : Spare Part Elektronik
+Berat                       : 2.4 kg
+Jumlah Koli                 : 1 (satu)
+Pengirim                    : Toko Elektronik Sumber Jaya - Denpasar
+Penerima                    : PT Cahaya Nusantara Energi (a.n. A. Wisnu)
+
+--------------------------------------------------------------------------------
+CATATAN INTERNAL (SISTEM OTOMATIS - JANGAN DIUBAH MANUAL)
+--------------------------------------------------------------------------------
+internal_tag: 55306c48546b464d49464a465445465a49466733
+
+--------------------------------------------------------------------------------
+STATUS PEMERIKSAAN
+--------------------------------------------------------------------------------
+Pemeriksaan Bea & Cukai     : LOLOS (jalur hijau - kategori barang elektronik ringan)
+Pemeriksaan Fisik           : TIDAK DILAKUKAN (volume rendah, prioritas rendah)
+Catatan Petugas             : "Barang kecil, sesuai deskripsi manifest. Diteruskan
+                               ke jalur distribusi standar tanpa hambatan."
+
+================================================================================
+Dokumen ini diekstrak dari sistem manifest digital pelabuhan sebagai bagian dari
+kerja sama investigasi. Dilarang disebarluaskan di luar keperluan penyelidikan.
+================================================================================
