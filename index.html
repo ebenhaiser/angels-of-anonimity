@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angels of Anonymity adalah IT & Multimedia team yang fokus pada teknologi, kreativitas, dan inovasi digital.">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Angels of Anonymity — IT & Multimedia Team">
+    <meta property="og:description" content="Building technology, creating experiences, and turning ideas into reality.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://angelsofanonymity.com">
+    
+    <title>Angels of Anonymity — IT & Multimedia Team</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">✦</div>
+            <div class="loader-text">ANGELS OF ANONYMITY</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">
+                ✦ AOA
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#competitions" class="nav-link">Competitions</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+            <div class="animated-grid"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-word">ANGELS</span>
+                    <span class="title-word">OF</span>
+                    <span class="title-word">ANONYMITY</span>
+                </h1>
+                <p class="hero-subtitle">IT & Multimedia Team</p>
+                <p class="hero-description">Building technology, creating experiences, and turning ideas into reality.</p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-button primary">Explore Our Work →</a>
+                    <a href="#team" class="cta-button secondary">Meet The Team</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Who We Are</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-content">
+                <p class="about-description">
+                    Angels of Anonymity adalah tim independen yang bergerak di bidang Information Technology dan Multimedia. 
+                    Kami fokus pada teknologi, kreativitas digital, dan problem solving untuk menciptakan solusi inovatif.
+                </p>
+
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-number">01</div>
+                        <div class="highlight-title">Technology</div>
+                        <p>Solusi teknis yang robust dan scalable untuk kebutuhan digital modern.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">02</div>
+                        <div class="highlight-title">Creativity</div>
+                        <p>Pendekatan kreatif dalam setiap proyek untuk menghasilkan karya yang memorable.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-number">03</div>
+                        <div class="highlight-title">Problem Solving</div>
+                        <p>Mindset kritis untuk mengidentifikasi dan menyelesaikan tantangan kompleks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="section-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Competitions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Meet The Team</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="team-grid" id="teamContainer">
+                <!-- Team cards akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">What We Do</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="expertise-grid" id="expertiseContainer">
+                <!-- Expertise cards akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="project-filters" id="filterContainer">
+                <!-- Filter buttons akan dirender oleh JavaScript -->
+            </div>
+
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Project cards akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Our Journey</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline" id="timelineContainer">
+                <!-- Timeline items akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitions Section -->
+    <section id="competitions" class="competitions">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Competition & Challenges</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="competitions-grid" id="competitionsContainer">
+                <!-- Competition cards akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="philosophy">
+        <div class="philosophy-content">
+            <div class="philosophy-text">
+                <h2>"Different minds. One direction."</h2>
+                <p>Kami membangun, kami menciptakan, kami bersaing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Build Something</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <p class="contact-description">
+                Ada ide, proyek, atau tantangan? Mari kita bicarakan.
+            </p>
+
+            <div class="contact-methods" id="contactContainer">
+                <!-- Contact methods akan dirender oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <h3>ANGELS OF ANONYMITY</h3>
+                    <p>IT & Multimedia Team</p>
+                </div>
+
+                <div class="footer-tagline">
+                    <p>Technology • Creativity • Problem Solving</p>
+                    <p class="footer-quote">Built with curiosity & caffeine.</p>
+                </div>
+
+                <div class="footer-social" id="footerSocialContainer">
+                    <!-- Social links akan dirender oleh JavaScript -->
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Angels of Anonymity. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div id="modalBody">
+                <!-- Project details akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

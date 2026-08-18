@@ -1,0 +1,38 @@
+{
+  "name": "angels-of-anonymity-web",
+  "version": "1.0.0",
+  "description": "Angels of Anonymity - IT & Multimedia Team Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "http-server -p 8000",
+    "build": "echo 'Static site - no build required'",
+    "lint": "eslint js/ --fix",
+    "optimize": "imagemin assets/images/* --out-dir=assets/images/optimized"
+  },
+  "keywords": [
+    "portfolio",
+    "team",
+    "it",
+    "multimedia",
+    "technology",
+    "creative"
+  ],
+  "author": "Angels of Anonymity",
+  "license": "All Rights Reserved",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "imagemin": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "imagemin-webp": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/angels-of-anonymity-web.git"
+  },
+  "homepage": "https://angelsofanonymity.com",
+  "bugs": {
+    "url": "https://github.com/yourusername/angels-of-anonymity-web/issues"
+  }
+}
