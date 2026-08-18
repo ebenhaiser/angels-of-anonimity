@@ -1,0 +1,104 @@
+import fitz
+import cv2
+import numpy as np
+import base64
+
+
+PDF_FILE = "boarding_pass.pdf"
+
+
+def extract_pdf_info(filename):
+    """Membaca metadata dan teks dari PDF."""
+    doc = fitz.open(filename)
+
+    print("=" * 60)
+    print("PDF METADATA")
+    print("=" * 60)
+
+    metadata = doc.metadata
+
+    for key, value in metadata.items():
+        print(f"{key:12}: {value}")
+
+    print("\n" + "=" * 60)
+    print("PDF TEXT")
+    print("=" * 60)
+
+    for page_number, page in enumerate(doc, start=1):
+        print(f"\n--- Page {page_number} ---")
+        print(page.get_text())
+
+    return doc
+
+
+def extract_qr_code(doc):
+    """Mengambil gambar QR Code dari PDF dan membacanya."""
+    detector = cv2.QRCodeDetector()
+
+    print("\n" + "=" * 60)
+    print("QR CODE ANALYSIS")
+    print("=" * 60)
+
+    for page_number, page in enumerate(doc, start=1):
+
+        images = page.get_images(full=True)
+
+        for image in images:
+            xref = image[0]
+
+            image_data = doc.extract_image(xref)
+            image_bytes = image_data["image"]
+
+            # Convert image bytes menjadi array OpenCV
+            array = np.frombuffer(image_bytes, dtype=np.uint8)
+
+            # Decode gambar
+            img = cv2.imdecode(array, cv2.IMREAD_COLOR)
+
+            if img is None:
+                continue
+
+            # Deteksi dan decode QR
+            qr_data, points, _ = detector.detectAndDecode(img)
+
+            if qr_data:
+                print(f"Page      : {page_number}")
+                print(f"QR Data   : {qr_data}")
+
+                try:
+                    decoded = base64.b64decode(qr_data).decode("utf-8")
+
+                    print(f"Base64    : {qr_data}")
+                    print(f"Decoded   : {decoded}")
+
+                except Exception:
+                    print("QR data bukan Base64 yang valid.")
+
+
+def get_answer(doc):
+    """Mengambil kandidat jawaban dari metadata Author."""
+    author = doc.metadata.get("author", "")
+
+    print("\n" + "=" * 60)
+    print("ANSWER")
+    print("=" * 60)
+
+    print("Author :", author)
+
+    if author:
+        flag = "FLAG{" + author.upper().replace(" ", "_") + "}"
+        print("Flag   :", flag)
+
+
+def main():
+    doc = extract_pdf_info(PDF_FILE)
+
+    extract_qr_code(doc)
+
+    get_answer(doc)
+
+    doc.close()
+
+
+if __name__ == "__main__":
+    main()

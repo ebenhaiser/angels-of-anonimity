@@ -1,0 +1,178 @@
+from docx import Document
+from docx.shared import Pt, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.style import WD_STYLE_TYPE
+from pathlib import Path
+
+out_dir = Path("/mnt/data")
+docx_path = out_dir / "Dokumentasi_CTF_Boarding_Pass_QR.docx"
+py_path = out_dir / "solve_boarding_pass.py"
+
+code = r'''import base64
+import fitz  # PyMuPDF
+import cv2
+import numpy as np
+from pathlib import Path
+
+PDF_FILE = "boarding_pass (1).pdf"
+
+def decode_qr_from_pdf(pdf_file: str) -> str:
+    pdf_path = Path(pdf_file)
+    if not pdf_path.exists():
+        raise FileNotFoundError(f"File tidak ditemukan: {pdf_path}")
+
+    detector = cv2.QRCodeDetector()
+
+    with fitz.open(pdf_path) as pdf:
+        for page_no, page in enumerate(pdf, start=1):
+            # Render halaman PDF menjadi gambar dengan resolusi cukup tinggi.
+            pix = page.get_pixmap(matrix=fitz.Matrix(4, 4), alpha=False)
+            img = np.frombuffer(pix.samples, dtype=np.uint8)
+            img = img.reshape(pix.height, pix.width, pix.n)
+
+            # OpenCV memakai BGR.
+            if pix.n == 3:
+                img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
+            data, points, _ = detector.detectAndDecode(img)
+
+            if data:
+                print(f"[+] QR ditemukan pada halaman {page_no}")
+                return data
+
+    raise RuntimeError("QR Code tidak berhasil didecode.")
+
+def main():
+    raw = decode_qr_from_pdf(PDF_FILE)
+    print(f"[+] Data QR: {raw}")
+
+    try:
+        decoded = base64.b64decode(raw).decode("utf-8")
+        print(f"[+] Base64 decoded: {decoded}")
+        print(f"[+] Flag: FLAG{{{decoded}}}")
+    except Exception:
+        print("[!] Data QR bukan Base64 yang valid.")
+        print(f"[+] Gunakan data QR sebagai hasil: {raw}")
+
+if __name__ == "__main__":
+    main()
+'''
+
+py_path.write_text(code, encoding="utf-8")
+
+doc = Document()
+sec = doc.sections[0]
+sec.top_margin = Inches(0.7)
+sec.bottom_margin = Inches(0.7)
+sec.left_margin = Inches(0.8)
+sec.right_margin = Inches(0.8)
+
+styles = doc.styles
+styles["Normal"].font.name = "Arial"
+styles["Normal"].font.size = Pt(10.5)
+
+title = doc.add_paragraph()
+title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+r = title.add_run("DOKUMENTASI PENYELESAIAN CTF\nBOARDING PASS – QR CODE")
+r.bold = True
+r.font.size = Pt(18)
+
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p.add_run("Analisis file: boarding_pass (1).pdf").italic = True
+
+doc.add_heading("1. Tujuan", level=1)
+doc.add_paragraph(
+    "Dokumentasi ini menjelaskan proses penyelesaian challenge CTF berbasis "
+    "boarding pass. Fokus analisis adalah menemukan QR Code pada PDF, membaca "
+    "data yang tersimpan di dalam QR Code, kemudian melakukan decoding Base64 "
+    "untuk memperoleh nilai akhir."
+)
+
+doc.add_heading("2. File yang Dianalisis", level=1)
+doc.add_paragraph("Nama file: boarding_pass (1).pdf")
+doc.add_paragraph(
+    "File berupa boarding pass dalam format PDF. Dari analisis visual, terdapat "
+    "QR Code yang menjadi bagian penting dari challenge."
+)
+
+doc.add_heading("3. Metodologi Penyelesaian", level=1)
+steps = [
+    "Membuka dan merender halaman PDF menjadi gambar dengan resolusi tinggi.",
+    "Mendeteksi QR Code menggunakan OpenCV QRCodeDetector.",
+    "Membaca string yang tersimpan di dalam QR Code.",
+    "Menganggap hasil tersebut sebagai data Base64.",
+    "Melakukan Base64 decoding menggunakan modul base64 pada Python.",
+    "Menyusun hasil decoding sebagai format flag CTF."
+]
+for s in steps:
+    doc.add_paragraph(s, style="List Number")
+
+doc.add_heading("4. Hasil Analisis", level=1)
+doc.add_paragraph(
+    "Data QR Code yang diperoleh adalah:"
+)
+p = doc.add_paragraph()
+run = p.add_run("Q0FOR0dV")
+run.bold = True
+run.font.name = "Courier New"
+
+doc.add_paragraph(
+    "String tersebut kemudian didecode menggunakan Base64:"
+)
+p = doc.add_paragraph()
+run = p.add_run("Q0FOR0dV  →  CANGGU")
+run.bold = True
+run.font.name = "Courier New"
+
+doc.add_paragraph(
+    "Dengan demikian, nilai yang digunakan untuk flag adalah CANGGU."
+)
+
+doc.add_heading("5. Flag", level=1)
+p = doc.add_paragraph()
+p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+run = p.add_run("FLAG{CANGGU}")
+run.bold = True
+run.font.size = Pt(15)
+run.font.name = "Courier New"
+
+doc.add_heading("6. Kode Python", level=1)
+doc.add_paragraph(
+    "Kode berikut melakukan proses secara otomatis: membaca PDF, mendeteksi QR "
+    "Code, mengambil data QR, lalu mencoba melakukan Base64 decoding."
+)
+
+for line in code.splitlines():
+    p = doc.add_paragraph()
+    p.paragraph_format.space_after = Pt(0)
+    run = p.add_run(line if line else " ")
+    run.font.name = "Courier New"
+    run.font.size = Pt(8.2)
+
+doc.add_heading("7. Cara Menjalankan", level=1)
+doc.add_paragraph("Install dependency:")
+p = doc.add_paragraph()
+r = p.add_run("pip install pymupdf opencv-python numpy")
+r.font.name = "Courier New"
+
+doc.add_paragraph("Letakkan file berikut dalam folder yang sama:")
+for f in ["boarding_pass (1).pdf", "solve_boarding_pass.py"]:
+    doc.add_paragraph(f, style="List Bullet")
+
+doc.add_paragraph("Kemudian jalankan:")
+p = doc.add_paragraph()
+r = p.add_run("python solve_boarding_pass.py")
+r.font.name = "Courier New"
+
+doc.add_heading("8. Kesimpulan", level=1)
+doc.add_paragraph(
+    "Challenge dapat diselesaikan dengan mengekstrak QR Code dari boarding pass. "
+    "Isi QR Code berupa string Base64 Q0FOR0dV. Setelah dilakukan decoding, "
+    "diperoleh CANGGU, sehingga flag akhirnya adalah FLAG{CANGGU}."
+)
+
+doc.save(docx_path)
+
+print(f"Dokumentasi: {docx_path}")
+print(f"Kode Python: {py_path}")
